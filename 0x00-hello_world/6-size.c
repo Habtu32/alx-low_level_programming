@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 /**
  * main -aprogram print a size of various data types in C
  *
