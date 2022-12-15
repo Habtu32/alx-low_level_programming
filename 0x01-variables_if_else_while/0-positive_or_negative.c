@@ -16,7 +16,7 @@ int main(void)
 	{
 		printf("%d is posetive number\n", n);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
 		printf("%d is zero number\n", n);
 	}
