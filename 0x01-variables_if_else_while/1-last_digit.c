@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - fro printing diffrent numbers
- * Return 0
+ * Return 0: this will return value
  *
  */
 int main(void)
