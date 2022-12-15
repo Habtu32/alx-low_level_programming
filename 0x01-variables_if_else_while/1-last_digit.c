@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - fro printing diffrent numbers
+ * main - fro printing diffrent numbers from main
  * Return 0: this will return value
  *
  */
