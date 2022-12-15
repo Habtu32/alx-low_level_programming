@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - fro printing diffrent numbers from main
+ * main - print random number
  * Return 0: this will return value
  *
  */
