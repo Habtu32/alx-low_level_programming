@@ -6,18 +6,12 @@
  */
 int main(void)
 {
-	char c = 'a', 
-	char b = 'A';
+	char c = 'a';
 
 	for (; c <= 'z'; c++)
 	{
 		putchar(c);
 	}
-	for (; b <= 'Z'; b++)
-	{
-		putchar(b);
-	}
-
 	putchar('\n');
 	return (0);
 
