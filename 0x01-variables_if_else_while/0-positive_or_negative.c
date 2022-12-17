@@ -6,7 +6,7 @@
  * Return:0
  *
  */
-int main(void)
+int mai(void)
 {
 	int n;
 
@@ -23,6 +23,5 @@ int main(void)
 	else
 	{
 		printf("%d is zero\n", n);
-	}
-	return (0);
+	}return (0);
 }
