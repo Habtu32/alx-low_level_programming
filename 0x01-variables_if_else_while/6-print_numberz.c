@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - main function to print alpahbetic character
+ *main - main function is to print alpahbetic character
  *
  *Return:0
  */
