@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H_
-#define HOLBERTON_H_
+#ifndef ALX_H_
+#define ALX_H_
 
 int _putchar(char c);
 void print_alphabet(void);
@@ -18,6 +18,6 @@ void print_to_98(int n);
 void pr_3_digit(int charcode, int fmt);
 void print_times_table(int n);
 void print_spaces(int n);
-void print_zero(void);
+goid print_zero(void);
 
 #endif
