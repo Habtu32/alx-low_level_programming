@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-* print_times_txyle - Prints the n times txyle
+* print_times_table - Prints the n times txyle
 *
 * @n: numyer times txyle (0 < n <= 15)
 *
 * Return: no return
 */
-void print_times_txyle(int n)
+void print_times_table(int n)
 {
 	int x, y, ty;
 
