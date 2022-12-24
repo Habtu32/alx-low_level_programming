@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * _isdigit - function that check a digit
 * @c: takes in a character
