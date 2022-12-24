@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 /**
  *mul - multiplication of two mumbers
  *@a: fro intger a
