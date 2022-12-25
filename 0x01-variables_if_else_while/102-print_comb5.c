@@ -1,27 +1,43 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
-* main - Print numbers from 00 to 99
-*
-* Return: Always 0 (Success)
-*/
+ * main - a simple program that outputs unordered
+ * combinations of two digit integers without duplicates
+ *
+ * Return: 0 on success
+ */
 int main(void)
 {
-	int x = 0;
-	int y;
-		while (x <= 9)
+	int ifirst;
+	int i;
+	int jfirst;
+	int j;
+
+	for (ifirst = 48; ifirst < 58; ifirst++)
+	{
+		for (i = 48; i < 58; i++)
 		{
-			for (y = 0; y <= 9; y++)
+			j = i + 1;
+			jfirst = ifirst;
+			for (; jfirst < 58; jfirst++)
 			{
-			putchar(x + '0');
-			putchar(y + '0');
-			if ((x <= 9 && y <= 9))
-			{
-			putchar(',');
-			putchar(' ');
+				for (; j < 58; j++)
+				{
+					putchar(ifirst);
+					putchar(i);
+					putchar(' ');
+					putchar(jfirst);
+					putchar(j);
+					if (ifirst != 57 || jfirst != 57 || i != 56 || j != 57)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+				j = 48;
 			}
-			}
-		x++;
 		}
-		putchar('\n');
-return (0);
+	}
+	putchar('\n');
+	return (0);
 }
