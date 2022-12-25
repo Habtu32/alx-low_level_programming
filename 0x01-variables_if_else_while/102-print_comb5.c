@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
 * main - Print numbers from 00 to 99
 *
@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-	int x;
+	int x = 0;
 	int y;
-		for (x = 0; x <= 9; x++)
+		while (x <= 9)
 		{
 			for (y = 0; y <= 9; y++)
 			{
@@ -20,6 +20,7 @@ int main(void)
 			putchar(' ');
 			}
 			}
+		x++;
 		}
 		putchar('\n');
 return (0);
