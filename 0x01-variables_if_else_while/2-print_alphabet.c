@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
-*main -main printing alphabet
-*return: 0
-*/
-
+ *main -main to print alpabetic carhacter
+ *
+ *Return:0
+ */
 int main(void)
 {
 	char c = 'a';
