@@ -1,24 +1,20 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *main - main function to print alpahbetic character
+ *main - printing alphabet
  *
- *Return:0
+ *return: 0
  */
+
 int main(void)
 {
-	char c = 'a', 
-	char b = 'A';
+	char c = 'a';
 
-	for (; c <= 'z'; c++)
+	while (c <= 'z')
 	{
 		putchar(c);
+		c++;
 	}
-	for (; b <= 'Z'; b++)
-	{
-		putchar(b);
-	}
-
 	putchar('\n');
-	return (0);
 
+return (0);
 }
