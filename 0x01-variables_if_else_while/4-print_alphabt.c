@@ -1,20 +1,20 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *main - main function to print alpahbetic character
+ *main - main function that return alphabet except a and e
  *
  *Return:0
  */
 int main(void)
 {
-	char c = 'a';
+	char a = 'a';
 
-	for (; c <= 'z'; c++)
+	while (a <= 'z')
 	{
-		if ((c != 'e') && (c != 'q'))
-
-		putchar(c);
+	if ((a != 'e') && (a != 'q'))
+	{
+	putchar(a);
+	}
+	a++;
 	}
 	putchar('\n');
-	return (0);
-
 }
