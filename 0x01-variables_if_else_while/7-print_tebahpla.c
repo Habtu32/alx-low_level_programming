@@ -1,19 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *main - main function to print alpahbetic character
+ *main - main to print lowercase in reverse order
  *
- *Return:0
+ * Return:0
  */
 int main(void)
 {
-	char c = 'z';
+	char i = 'z';
 
-	for (; c >= 'a'; c--)
+	while (i <= 'a')
 	{
-
-		putchar(c);
+		putchar(i);
+		i--;
 	}
 	putchar('\n');
-	return (0);
-
+return (0);
 }
