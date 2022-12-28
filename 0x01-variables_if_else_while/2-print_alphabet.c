@@ -1,6 +1,6 @@
 #include<stdio.h>
-/** 
-*main - main printing alphabet
+/**
+*main -main printing alphabet
 *return: 0
 */
 
