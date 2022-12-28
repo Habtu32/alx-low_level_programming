@@ -1,19 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *main - main function is to print alpahbetic character
+ *main - main function that print int using putchar
  *
- *Return:0
+ * Return:0
  */
 int main(void)
 {
-	int c = 0;
+	int k;
 
-	for (; c < 10; c++)
+	for (k = 48; k <= 57; k++)
 	{
-		putchar((c % 10) + '0');
+		putchar(k);
 	}
 	putchar('\n');
 
-	return (0);
 
 }
