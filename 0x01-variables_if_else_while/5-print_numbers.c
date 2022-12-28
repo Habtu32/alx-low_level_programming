@@ -1,19 +1,16 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *main - main function to print alpahbetic character
- *
+ *main- main function that print single digit number
  *Return:0
  */
 int main(void)
 {
-	char c = 0;
+	int i;
 
-	for (; c < 10; c++)
+	for (i = 0; i <= 9; i++)
 	{
-		printf("%d", c);
+		printf("%d", i);
 	}
 	printf("\n");
-
-	return (0);
-
+return (0);
 }
