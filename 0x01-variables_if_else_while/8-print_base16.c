@@ -1,21 +1,23 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *main - main function to print alpahbetic character
+ *main - main to print all characters hexa
  *
  *Return:0
  */
 int main(void)
 {
-	char c = 'a';
-	int b = 0;
+	char num = '1';
+	char alpha = 'a';
 
-	for (; b < 10; b++)
-		putchar((b % 10) + '0');
-
-	for (; c <= 'f'; c++)
-		putchar(c);
-
+	while (num <= '9')
+	{
+		putchar(num);
+		num++;
+	}
+	while (alpha <= 'f')
+	{
+		putchar(alpha);
+		alpha++;
+	}
 	putchar('\n');
-	return (0);
-
 }
