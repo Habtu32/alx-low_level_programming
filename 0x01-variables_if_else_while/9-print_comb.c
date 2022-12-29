@@ -6,16 +6,15 @@
  */
 int main(void)
 {
-	char num = '0';
-	char comm = ',', space = ' ';
+	int num = 0;
 
-	while (num <= '9')
+	while (num <= 9)
 	{
-		putchar(num);
-		if (num != '9')
+		putchar(num + '0');
+		if (num != 9)
 		{
-			putchar(comm);
-			putchar(space);
+			putchar(',');
+			putchar(' ');
 		}
 		num++;
 	}
