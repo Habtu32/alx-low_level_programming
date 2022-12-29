@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char num = '1';
+	char num = '0';
 	char alpha = 'a';
 
 	while (num <= '9')
