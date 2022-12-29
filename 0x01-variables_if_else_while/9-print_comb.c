@@ -1,24 +1,24 @@
 #include<stdio.h>
 /**
- * main - to print combination of numers
+ *main - main print number combinations
  *
  * Return:0
- *
  */
 int main(void)
 {
-	int b = 0;
+	char num = '0';
+	char comm = ',', space = ' ';
 
-	for (; b < 10; b++)
+	while (num <= '9')
 	{
-		putchar((b % 10) + '0');
-		if (b < 9)
+		putchar(num);
+		if (num != '9')
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(comm);
+			putchar(space);
 		}
+		num++;
 	}
-
 	putchar('\n');
 
 return (0);
