@@ -1,20 +1,24 @@
 #include<stdio.h>
 #include"main.h"
 /**
- *_islower - to check if the digit is lower case
- *
- *return:0
+ * _islower - to check if the digit is lower case
+ * @c:  for argument from function
+ * return:0 if the character is capital and returns 1 if the character is small
  */
 int _islower(int c)
-
-	char b;
 {
-	if (_islower(b))
+	c = 'a';
+
+	while (c <= 'z')
 	{
-		return 1;
-	}
-	else
-	{
-		return 0;
+		if (_iflower(c))
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+		c++;
 	}
 }
