@@ -1,20 +1,23 @@
+#include<stdio.h>
 #include "main.h"
 /**
- *print_alphabet_x10 - print alphabet x10 times
+ *print_alphabet_x10 - to print alhabet in lower case
  *
- * Return:0
+ * return :0
  */
-void print_alphabet_x10(void)
+void print_alphabet_10x(void)
 {
-	char x;
-	int y;
 
-	for (y = 1; y <= 10; y++)
+	char c = 'a';
+	int i = 1;
+
+	while (i <= 10)
 	{
-		for (x = 'a'; x <= 'z'; x++)
+		while (c = 'z')
 		{
-			_putchar(x);
+			_putchar(c);
+			c++;
 		}
-	_putchar('\n');
-}
+		i++;
+	}
 }
