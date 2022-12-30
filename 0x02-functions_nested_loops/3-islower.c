@@ -7,9 +7,9 @@
  */
 int _islower(int c)
 
-	int c;
+	char b;
 {
-	if (_islower('c'))
+	if (_islower('b'))
 	{
 		return 1;
 	}
