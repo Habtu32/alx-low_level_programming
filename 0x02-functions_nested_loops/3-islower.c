@@ -6,13 +6,15 @@
  *return:0
  */
 int _islower(int c)
+
+	int c;
 {
 	if (_islower(c))
 	{
-		printf("the charcter is lower case %d\n", c);
+		return 1;
 	}
 	else
 	{
-		printf("The charctr is not lower case %d\n ", c);
+		return 0;
 	}
 }
