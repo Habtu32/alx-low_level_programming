@@ -1,16 +1,20 @@
+#include<stdio.h>
 #include "main.h"
 /**
-*print_alphabet -print all the alphabet in lower case
-*
-*Return:void
-*/
-void print_alphabet(void)
+ *main - main to print in alpahbetic order
+ *
+ *Return:0
+ */
+int main(void)
 {
-	char x;
+	char c = 'a';
 
-	for (x = 'a'; x <= 'z'; x++)
+	while (c <= 'z')
 	{
-		_putchar(x);
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
+
+return (0);
 }
