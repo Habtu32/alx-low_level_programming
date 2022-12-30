@@ -11,7 +11,7 @@ int _islower(int c)
 
 	while (c <= 'z')
 	{
-		if (_iflower(c))
+		if (_islower(c))
 		{
 			return (1);
 		}
