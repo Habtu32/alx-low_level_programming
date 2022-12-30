@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "main.h"
 /**
- *main - main to print in alpahbetic order
+ *print_alphabet - to print small in alpahbetic order
  *
  *Return:0
  */
