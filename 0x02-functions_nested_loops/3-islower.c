@@ -9,10 +9,10 @@ int _islower(int c)
 {
 	if (_islower(c))
 	{
-		return 1;
+		printf("the charcter is lower case %d\n", c);
 	}
 	else
 	{
-		return 0;
+		printf("The charctr is not lower case %d\n ", c);
 	}
 }
