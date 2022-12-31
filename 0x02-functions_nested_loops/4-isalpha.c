@@ -1,11 +1,12 @@
 #include<stdio.h>
+#include "main.h"
 /**
  * _isalpha - to shows 1 if the letter is small
  * or shows 0 if letter is capital
  *
- * @c: argument 
+ * @c: argument
  *
- *return:0 if letter is capital else 0
+ * Return:0 if letter is capital else 0
  */
 int _isalpha(int c)
 {
@@ -13,6 +14,6 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 		return (0);
 }
