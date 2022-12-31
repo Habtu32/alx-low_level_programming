@@ -1,14 +1,15 @@
 #include "main.h"
 /**
-* print_sign - Determines if the input number
-*
-* @n: The input number as an integer.
-*
-* Return: 1 is greater than zero. 0 is zero.
-* -1 is less than zero.
-*/
+ * print_sign - to print
+ *
+ * @n: asci value
+ *
+ *Return: 1 if number is less than zero and shows 0
+ * if equal to zero and -1 if less zan zero
+ */
 int print_sign(int n)
 {
+
 	if (n > 0)
 	{
 		_putchar('+');
@@ -17,7 +18,6 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 		_putchar('0');
-		return (0);
 	}
 	else
 	{
