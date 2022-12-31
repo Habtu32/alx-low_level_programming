@@ -2,25 +2,18 @@
 /**
  * _abs - to print absolute value
  *
- * @int: for accepting intiger
+ * @n: for accepting intiger
  *
- * Return: 0
+ * Return: n if absolut
  */
 int _abs(int n)
 {
-
-	if (n < 0)
+	if (n >= 0)
 	{
-		_putchar(n);
-	}
-	else if (n == 0)
-	{
-		_putchar(0);
+		return (n);
 	}
 	else
 	{
-		_putchar(n);
+		return (n * -1);
 	}
-
-return 0;
 }
