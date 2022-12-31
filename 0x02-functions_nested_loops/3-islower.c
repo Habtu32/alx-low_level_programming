@@ -7,19 +7,16 @@
  */
 int _islower(int c)
 {
-	char c = 'a';
+	int q;
 
-	while (c <= 'z')
+	if ((q >= 97) && (q <= 122))
 	{
-		if ((c >= 'a') && (c <= 'z'))
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
-		c++;
+		return (1);
 	}
+	else
+	{
+		return (0);
+	}
+	
 return (0);
 }
