@@ -6,18 +6,18 @@
  */
 void times_table(void)
 {
-	int x = 0;
+	int x = 48;
 	int y, s;
 
-	while (x <= 9)
+	while (x <= 57)
 	{
-		y = 0;
+		y = 48;
 
-		while (y <= 9)
+		while (y <= 57)
 		{
 			s = x * y;
 
-			_putchar(s);
+			_putchar('s');
 			_putchar(',');
 			_putchar(' ');
 
