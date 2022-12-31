@@ -1,23 +1,12 @@
 #include "main.h"
 /**
-* print_last_digit - Determines if the input number
-*
-* @n: The number
-*
-* Return: the value of last_digit
-*/
-int print_last_digit(int n)
+ * print_last_digit - print last digit
+ *
+ * @x: ASCII code of thr
+ *
+ * Return: 0 if not thr same
+ */
+int print_last_digit(int x)
 {
-	int x = n % 10;
-
-	if (x < 0)
-	{
-		_putchar(-x + '0');
-	return (-x);
-	}
-	else
-	{
-		_putchar(x + '0');
-	return (x);
-	}
+	_putchar(x % 10 + '0');
 }
