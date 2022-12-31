@@ -14,7 +14,7 @@ void jack_bauer(void)
 	{
 		x2 = 48;
 
-		while (x2 <= 51)
+		while (x2 <= 57)
 		{
 			x3 = 48;
 
