@@ -9,9 +9,9 @@ int _islower(int c)
 {
 	char q = 'a';
 
-	while (q <= 'z')
+	for (q = 'a'; q <= 'z'; q++)
 	{
-		if (_islower('q'))
+		if ((q >= 'a') && (q <= 'z'))
 		{
 			return (1);
 		}
