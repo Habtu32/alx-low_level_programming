@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * time_tables - print time table
+ * times_table - print time table
  *
  * Return: no return
  */
-void time_tables(void)
+void times_table(void)
 {
 	int x = 0;
 	int y, s;
