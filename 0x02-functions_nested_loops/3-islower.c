@@ -7,11 +7,11 @@
  */
 int _islower(int c)
 {
-	char q = 'a';
+	char c = 'a';
 
-	while (q <= 'z')
+	while (c <= 'z')
 	{
-		if ((q >= 'a') && (q <= 'z'))
+		if ((c >= 'a') && (c <= 'z'))
 		{
 			return (1);
 		}
@@ -19,7 +19,7 @@ int _islower(int c)
 		{
 			return (0);
 		}
-		q++;
+		c++;
 	}
 return (0);
 }
