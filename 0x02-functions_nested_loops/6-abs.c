@@ -1,15 +1,25 @@
 #include "main.h"
 /**
-* _abs - Determines if the input number
-*
-* @t: The input number as an integer.
-*
-* Return: absolute value
-*/
-int _abs(int t)
+ * _abs - to print absolute value
+ *
+ * @int: for accepting intiger
+ *
+ * Return: 0
+ */
+int _abs(int n)
 {
-	if (t >= 0)
-		return (t);
+
+	if (n <= 0)
+	{
+		_putchar('n');
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+	}
 	else
-		return (-t);
+	{
+		_putchar('n');
+	}
+
 }
