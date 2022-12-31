@@ -1,20 +1,18 @@
-#include "main.h"
+#include<stdio.h>
 /**
-* _isalpha - Shows 1 if the input is c
-*
-* @c: The character
-*
-* Return: 1 for letters. Returns 0 remainings
-*/
+ * _isalpha - to shows 1 if the letter is small
+ * or shows 0 if letter is capital
+ *
+ * @c: argument 
+ *
+ *return:0 if letter is capital else 0
+ */
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	if (((c >= 'a') && (c <= 'a')) || (((c <= 'A') && (c >= 'Z'))))
 	{
 		return (1);
 	}
-	else
-	{
+	else 
 		return (0);
-	}
-	_putchar('\n');
 }
