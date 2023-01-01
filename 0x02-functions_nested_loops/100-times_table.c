@@ -24,8 +24,8 @@ void print_times_table(int n)
 				}
 				else
 				{
-					_putchar(s % 10 + 48);
 					_putchar(s / 10 + 48);
+					_putchar(s % 10 + 48);
 				}
 					_putchar(44);
 					_putchar(32);
