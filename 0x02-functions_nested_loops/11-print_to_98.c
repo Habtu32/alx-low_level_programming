@@ -23,6 +23,8 @@ void print_to_98(int n)
 		_putchar(44);
 		_putchar(32);
 
+		n++;
+
 	}
 	_putchar('\n');
 }
