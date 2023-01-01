@@ -26,6 +26,7 @@ void print_times_table(int n)
 					{
 						_putchar(44);
 						_putchar(32);
+						_putchar(32);
 					}
 				}
 				else
@@ -36,6 +37,7 @@ void print_times_table(int n)
 					if (j < n)
 					{
 						_putchar(44);
+						_putchar(32);
 						_putchar(32);
 					}
 				}
