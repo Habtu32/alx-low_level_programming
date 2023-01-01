@@ -3,13 +3,12 @@
 /**
  * print_numbers - print numbers 0 to 9
  *
- * Return: no return
  */
 void print_numbers(void)
 {
 	char i;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		_putchar(i);
 	}
