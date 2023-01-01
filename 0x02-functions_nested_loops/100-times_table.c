@@ -22,6 +22,13 @@ void print_times_table(int n)
 				{
 					_putchar(s + 48);
 
+					if (j < n)
+					{
+						_putchar(44);
+						_putchar(32);
+						_putchar(32);
+						_putchar(32);
+					}
 				}
 				else if (s < 100)
 				{
