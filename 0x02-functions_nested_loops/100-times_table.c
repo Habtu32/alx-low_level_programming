@@ -22,26 +22,24 @@ void print_times_table(int n)
 				{
 					_putchar(s + 48);
 
-					if (j < n)
-					{
-						_putchar(44);
-						_putchar(32);
-						_putchar(32);
-						_putchar(32);
-					}
 				}
-				else
+				else if (s < 100)
 				{
 					_putchar(s / 10 + 48);
 					_putchar(s % 10 + 48);
-
+				}
+				else
+				{
+					_putchar(((s / 100) % 10) + 48);
+					_putchar(((s / 10) % 10) + 48);
+					_putchar(((s % 10) % 10) + 48);
+				}
 					if (j < n)
 					{
 						_putchar(44);
 						_putchar(32);
 						_putchar(32);
 					}
-				}
 
 			}
 			_putchar('\n');
