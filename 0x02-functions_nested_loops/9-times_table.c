@@ -28,7 +28,7 @@ void times_table(void)
 			{
 			_putchar(s / 10 + 48);
 			_putchar(s % 10 + 48);
-
+			}
 			y++;
 		}
 		_putchar('\n');
