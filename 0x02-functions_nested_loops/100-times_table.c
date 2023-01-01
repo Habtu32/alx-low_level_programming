@@ -21,18 +21,25 @@ void print_times_table(int n)
 				if (s <= 9)
 				{
 					_putchar(s + 48);
+
+					if (j < n)
+					{
+						_putchar(44);
+						_putchar(32);
+					}
 				}
 				else
 				{
 					_putchar(s / 10 + 48);
 					_putchar(s % 10 + 48);
+
+					if (j < n)
+					{
+						_putchar(44);
+						_putchar(32);
+					}
 				}
 
-					if (i != n)
-					{
-					_putchar(44);
-					_putchar(32);
-					}
 			}
 			_putchar('\n');
 		}
