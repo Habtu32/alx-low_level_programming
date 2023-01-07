@@ -16,11 +16,11 @@ void rev_string(char *s)
 	}
 	count = len;
 
-	while (*(s + len) != '\0')
+	while (*(s + count) != '\0')
 	{
-		putchar(s[len]);
+		putchar(s[count]);
 
-		len--;
+		count--;
 	}
 
 }
