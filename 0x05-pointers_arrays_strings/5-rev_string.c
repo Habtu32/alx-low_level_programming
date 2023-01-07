@@ -18,7 +18,7 @@ void rev_string(char *s)
 	}
 	count = len;
 
-	while (s[count] != '\0')
+	while (s[count - 1] != '\0')
 	{
 		putchar(s[count]);
 
