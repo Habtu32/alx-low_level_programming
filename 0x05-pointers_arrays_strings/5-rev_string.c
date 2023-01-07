@@ -1,30 +1,26 @@
-#include <stdio.h>
 #include "main.h"
+#include<stdio.h>
 /**
- *rev_string - update value.
- *@s: value to be evaluate.
- *Return: not.
+ *rev_string - print reverse string
+ *@s:string
+ *Return:none
  */
 void rev_string(char *s)
 {
 	int len = 0;
-	int l = 0;
-	char *y = s;
-	int e = 0;
-	int x;
-	char n;
+	int count;
 
-	while (*y != '\0')
+	while (*s != '\0')
 	{
-		y++;
 		len++;
 	}
-	l = len - 1;
-	for ( ; e < ((l / 2) + 1) ; e++)
+	count = len;
+
+	while (*(s + len) != '\n')
 	{
-		x = (l - e);
-		n = s[e];
-		s[e] = s[x];
-		s[x] = n;
+		putchar(s[len]);
+
+		len--;
 	}
+
 }
