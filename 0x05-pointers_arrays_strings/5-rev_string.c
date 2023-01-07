@@ -8,7 +8,6 @@
 void rev_string(char *s)
 {
 	int len = 0;
-	int count;
 
 	while (*s != '\0')
 	{
@@ -16,13 +15,12 @@ void rev_string(char *s)
 
 		s++;
 	}
-	count = len;
 
-	while (s[count - 1] != '\0')
+	while (s[len] != '\0')
 	{
 		putchar(s[count]);
 
-		count--;
+		len--;
 	}
 
 }
