@@ -16,7 +16,7 @@ void rev_string(char *s)
 	}
 	count = len;
 
-	while (*(s + len) != '\n')
+	while (*(s + len) != '\0')
 	{
 		putchar(s[len]);
 
