@@ -1,32 +1,22 @@
-#include <stdio.h>
-#include "main.h"
+#include"main.h"
+#include<stdio.h>
 /**
- *puts_half - update value.
- *@str: value to be evaluate.
- *Return: not.
+ *puts_half - print char
+ *
+ *@str: string print
+ *Return: no value
  */
 void puts_half(char *str)
 {
-	int len = 0;
-	char *y = str;
-	int n;
+	int i, j, mid;
 
-	while (*y != '\0')
+	for (i = 0; str[i] != '\0'; i++)
+
+	mid = i / 2;
+
+	for (j = i; j >= mid; j--)
 	{
-		y++;
-		len++;
-	}
-	if (len % 2 == 0)
-	{
-		n = len / 2;
-	}
-	else
-	{
-		n = (len + 1) / 2;
-	}
-	for ( ; n < len ; n++)
-	{
-		_putchar(str[n]);
+		_putchar(str[j]);
 	}
 	_putchar('\n');
 }
