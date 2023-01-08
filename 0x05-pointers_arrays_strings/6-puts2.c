@@ -1,29 +1,21 @@
-#include <stdio.h>
-#include "main.h"
+#include"main.h"
+#include<stdio.h>
 /**
- *puts2 - print pair values.
- *@str: value to be evaluate.
- *Return: not.
+ *puts2 - print function
+ *@str: print string
+ *Return: no return
  */
 void puts2(char *str)
 {
-	int len = 0;
-	int l = 0;
-	char *y = str;
-	int z;
+	int i;
 
-	while (*y != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		y++;
-		len++;
-	}
-	l = len - 1;
-	for (z = 0 ; z <= l ; z++)
-	{
-		if (z % 2 == 0)
+		if ((i % 2 == 0) || (i == 0))
 		{
-			_putchar(str[z]);
+			_putchar(str[i]);
 		}
+
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
