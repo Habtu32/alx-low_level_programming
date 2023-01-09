@@ -1,24 +1,25 @@
+#include"main.h"
 #include<stdio.h>
-#include "main.h"
 /**
- *_strcpy - update value.
- *@dest: value to be evaluate.
- *@src: value to be evaluate.
- *Return: not.
+ * *_strcpy - copy character to destination
+ * @dest: destination file
+ * @src: source file
+ * Return: dest
+ *
  */
 char *_strcpy(char *dest, char *src)
 {
-	int l = 0;
-	int x = 0;
+	int i , j;
 
-	while (*(src + l) != '\0')
+	for (i = 0; src[i] == '\0'; i++)
 	{
-		l++;
 	}
-	for ( ; x < l ; x++)
+
+	for (j = 0; j <= i; j++)
 	{
-		dest[x] = src[x];
+		src[j] = dest[j];
 	}
-	dest[l] = '\0';
-	return (dest);
+
+return (dest);
 }
+
